@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>resto</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family">
+</head>
+<body>
+          <?php
+            $servername = 'localhost';
+            $username = 'root';
+            $password = 'root';
+            
+            //On établit la connexion
+            $conn = new mysqli($servername, $username, $password);
+            
+            //On vérifie la connexion
+            if($conn->connect_error){
+                die('Erreur : ' .$conn->connect_error);
+            }
+            echo 'Connexion réussie';
+        ?>
+    <header>
+        <a href="#" class="logo"><span>R</span>esto</a>
+        <ul class="navbar" >
+            <li><a href="#">accueil</a></li>
+            <li><a href="#">A propos</a></li>
+            <li><a href="#">Menu</a></li>
+            <li><a href="#">Expert</a></li>
+            <li><a href="#">temoignage</a></li>
+            <li><a href="#">contact</a></li>
+            <a href="#" class="btn-reserve" >Reservation</a>
+
+        </ul>
+    </header>
+    <section class="banniere" id="banniere">
+        <div class="contenu">
+        <h2>QUE DES PLATS DELICIEUX</h2>
+        <P>Lorem ipsum dollar sit amet ,consecteur adpiscing elit ,sed do elusmed tempor incididunt ut labor et dolare magna aliqua.ut entim an minim veniam,quis nostrud exercition ultamco laboris nisi ut aliquip ex ea commodo consequat</P>
+        <a href="#" class="btn1">notre Menu</a>
+        <a href="#" class="btn2">Reservation</a>
+    </div>
+    </section>
+    <SECTION class="apropos" id="apropos">
+        <DIV class="row">
+            <DIV class="colso">
+                <H2 class="titre-texte"><SPAn>A </SPAn> PROPOS DE NOUS</h2>
+                    <p>lorem ipsum dolor sit amet,consecteur adpiscing elit,sed do elusmod tempor incididunt ut lobore et dolore magna aliqua.
+                        ut enim and mi,im veniam,quis nostrud exercitation ultamco laboris nisi ut aliquip ex ea commodo consequat .lorem ipsum dolor sit amet.consecteteur adpiscing elt,sed do elusmod tempor inciddunt ut labore et dolore magna aliqua.
+                         ut enim and minim veniam,quis nostruad exercitation ultimaco loboris resi ut aliquip ex ea commodo consequat.</p>
+            
+            </DIV class="colso">
+            <div>
+                <div class="img">
+                     <img src="./image/plat3.jpg" alt="image">
+                </div>
+            </div>z
+        </DIV>
+    </SECTION>
+  
+    <section class="menu" id="menu">
+        <DIV class="titre">
+            <H2 class="titre-texte"><SPAn>M</SPAn>enu</h2>
+                <p>lorem ipsum dolor sit amet,consecteur adpiscing elit,sed do elusmod tempor incididunt.</p>
+            </div>
+            <div class="contenu">
+              <div class="box">
+                <div class="imbox">
+                  <img src="./image/c1.jpg" alt="">
+                  </div>
+                  <div class="text">
+                    <h3>special salade</h3>
+                  </div>
+                  </div>
+                    <div class="box">
+                      <div class="imbox">
+                        <img src="./image/c2.jpg" alt="">
+                        </div>
+                        <div class="text">
+                          <h3>special salade</h3>
+                        </div>
+                      </div>
+                      
+                        <div class="box">
+                          <div class="imbox">
+                            <img src="./image/c3.jpg" alt="">
+                            </div>
+                            <div class="text">
+                              <h3>special salade</h3>
+                            </div>
+                          </div>
+                          
+                            <div class="box">
+                              <div class="imbox">
+                                <img src="./image/c4.jpg" alt="">
+                                </div>
+                                <div class="text">
+                                  <h3>special salade</h3>
+                                
+        
+        
+         </div>
+      </div>
+      <div class="box">
+        <div class="imbox">
+          <img src="./image/c5.jpg" alt="">
+          </div>
+          <div class="text">
+            <h3>special salade</h3>
+            </div>
+            </div>
+            <div class="box">
+                <div class="imbox">
+                  <img src="./image/c6.jpg" alt="">
+                  </div>
+                  <div class="text">
+                    <h3>special salade</h3>
+                </div>
+                </div>
+                    <div class="box">
+                        <div class="imbox">
+                          <img src="./image/c7.jpg" alt="">
+                          </div>
+                          <div class="text">
+                            <h3>special salade</h3>
+                            </div>
+                            </div>
+                            <div class="box">
+                                <div class="imbox">
+                                  <img src="./image/c8.jpg" alt="">
+                                  </div>
+                                  <div class="text">
+                                    <h3>special salade</h3>
+                                    </div>
+                                    </div>
+                                    </div>
+                                  
+     <DIv class="titre">
+        <a href="#" class="btn1">voir plus</a> 
+        </DIv>
+    </section>
+    <section class="expert" id="expert">
+      <DIV class="titre">
+          <H2 class="titre-texte">nos <SPAn>E</span>xpert</h2>
+              <p>lorem ipsum dolor sit amet,consecteur adpiscing elit,sed do elusmod tempor incididunt.</p>
+          </div>
+          <div class="contenu">
+            <div class="box">
+              <div class="imbox">
+                <img src="./image/equipe1.jpg" alt="">
+                </div>
+                <div class="text">
+                  <h3>FRANCK Lerol</h3>
+                </div>
+                </div>
+                  <div class="box">
+                    <div class="imbox">
+                      <img src="./image/equipe2.jpg" alt="">
+                      </div>
+                      <div class="text">
+                        <h3>Becaye</h3>
+                      </div>
+                    </div>
+                    
+                      <div class="box">
+                        <div class="imbox">
+                          <img src="./image/equipe3.jpg" alt="">
+                          </div>
+                          <div class="text">
+
+                            <h3>mamadou </h3>
+                          </div>
+                        </div>
+                        
+                          <div class="box">
+                            <div class="imbox">
+                              <img src="./image/equipe4.jpg" alt="">
+                              </div>
+                              <div class="text">
+
+                                <h3>Amy</h3>
+                    
+                                    </div>
+                                  </div>
+                                  </div>
+                                </section>
+                                <section class="temoignage" id="temoignage">
+                                  <DIV class="titre">
+                                      <H2 class="titre-texte">que dises nos <SPAn>C</span>lient</h2>
+                                          <p>lorem ipsum dolor sit amet,consecteur adpiscing elit,sed do elusmod tempor incididunt.</p>
+                                      </div>
+                                      <div class="contenu">
+                                        <div class="box">
+                                          <div class="imbox">
+                                            <img src="./image/t1.jpeg" alt="">
+                                            </div>
+                                            <div class="text">
+                  <p>lorem ipsum dalor sit amet consecteteur adpiscing elit  sed do elismod temporlorem ipsum dalor sit amet consecteur adpiscing elit,sed do elusmod tempor</p>
+
+                                              <h3>FRANCK Lerol</h3>
+                                            </div>
+                                            </div>
+                                              <div class="box">
+                                                <div class="imbox">
+                                                  <img src="./image/t2.jpg" alt="">
+                                                  </div>
+                                                  <div class="text">
+                  <p>lorem ipsum dalor sit amet consecteteur adpiscing elit  sed do elismod temporlorem ipsum dalor sit amet consecteur adpiscing elit,sed do elusmod tempor</p>
+
+                                                    <h3>Becaye</h3>
+                                                  </div>
+                                                </div>
+                                                
+                                                  <div class="box">
+                                                    <div class="imbox">
+                                                      <img src="./image/t3.jpg" alt="">
+                                                      </div>
+                                                      <div class="text">
+                  <p>lorem ipsum dalor sit amet consecteteur adpiscing elit  sed do elismod temporlorem ipsum dalor sit amet consecteur adpiscing elit,sed do elusmod tempor</p>
+
+                                                        <h3>mamadou </h3>
+                                                      </div>
+                                                    </div>
+                                                    
+                                                      <div class="box">
+                                                        <div class="imbox">
+                                                          <img src="./image/t4.jpg" alt="">
+                                                          </div>
+                                                          <div class="text">
+                  <p>lorem ipsum dalor sit amet consecteteur adpiscing elit  sed do elismod temporlorem ipsum dalor sit amet consecteur adpiscing elit,sed do elusmod tempor</p>
+
+                                                            <h3>Amy</h3>
+                                                          
+                                                
+                               
+                                                              </div>
+                                                              </div>
+                                                            </section>
+       <section class="contact" id="contact">
+        <div class="titre noir">
+          <h2 class="titre-titre"><span>C</span>ontact</h2>
+          <p>lorem ipsum dalor sit amet consecteteur adpiscing elit  sed do elismod temporlorem ipsum dalor sit amet consecteur adpiscing elit,sed do elusmod tempor</p>
+        </div>
+        <div class="contactform">
+          <h3>envoye un message</h3>
+          <div class="inputboite">
+            <input type="text" placeholder="non">
+
+
+          </div>
+        <div class="inputboite">
+          <input type="text" placeholder="email">
+          </div>
+          <div class="input">
+            <textarea placeholder="message"></textarea>
+          </div>
+          <div class="inputboite">
+            <input type="submit" placeholder="envoye">
+          </div>
+          </div>
+
+       </section>   
+       <div class="copyringht">
+        <p>copyringht 2021 <a href="#">portail.uvs.sn</a>BecayeMbao.tous droits reserve</p>
+       </div> 
+       <script type="text/javascript">
+        window.addEventlistener('scroll',function(){
+    const header =document.querySelector('header');
+    header.classList.toggle("stikky",window.scrollY > 0 ) ;
+
+} );
+       </script>
+</body>
+</html>
